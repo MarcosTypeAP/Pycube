@@ -14,7 +14,7 @@ git clone https://github.com/MarcosTypeAP/pycube-multiplayer-online.git
 cd pycube-multiplayer-online/
 python3 -m venv .venv         # If you don't want to install
 source .venv/bin/activate     # the dependencies globally
-python3 -m pip install -Ur requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 Usage
