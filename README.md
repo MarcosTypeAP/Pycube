@@ -5,10 +5,12 @@ Pycube is a very basic cube game with singleplayer/multiplayer-online, written i
 Usage
 -----
 
-First you need to clone the repository or [download it](https://github.com/MarcosTypeAP/pycube-multiplayer-online/archive/refs/heads/main.zip).
+First you need to clone the repository or [download it](https://github.com/MarcosTypeAP/pycube-multiplayer-online/archive/refs/heads/main.zip), and install python's dependencies.
 
 ```bash
 git clone https://github.com/MarcosTypeAP/pycube-multiplayer-online.git
+cd pycube-multiplayer-online/
+python3 -m pip install -Ur requirements.txt
 ```
 
 To execute the game just run `python3 main.py` and then select `singleplayer` in the UI.
